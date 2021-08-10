@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/the-storyline-method.github.io/static/css/main.a617e044.chunk.css",
-    "main.js": "/the-storyline-method.github.io/static/js/main.8a10e3df.chunk.js",
-    "main.js.map": "/the-storyline-method.github.io/static/js/main.8a10e3df.chunk.js.map",
-    "runtime-main.js": "/the-storyline-method.github.io/static/js/runtime-main.ff9ffb49.js",
-    "runtime-main.js.map": "/the-storyline-method.github.io/static/js/runtime-main.ff9ffb49.js.map",
-    "static/js/2.d05a9e98.chunk.js": "/the-storyline-method.github.io/static/js/2.d05a9e98.chunk.js",
-    "static/js/2.d05a9e98.chunk.js.map": "/the-storyline-method.github.io/static/js/2.d05a9e98.chunk.js.map",
-    "static/js/3.9277110f.chunk.js": "/the-storyline-method.github.io/static/js/3.9277110f.chunk.js",
-    "static/js/3.9277110f.chunk.js.map": "/the-storyline-method.github.io/static/js/3.9277110f.chunk.js.map",
-    "index.html": "/the-storyline-method.github.io/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/the-storyline-method.github.io/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.d05a9e98.chunk.js.LICENSE.txt": "/the-storyline-method.github.io/static/js/2.d05a9e98.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/the-storyline-method.github.io/static/media/logo.6ce24c58.svg"
+    "main.css": "/the-storyline-method/static/css/main.5739ad41.chunk.css",
+    "main.js": "/the-storyline-method/static/js/main.8a10e3df.chunk.js",
+    "main.js.map": "/the-storyline-method/static/js/main.8a10e3df.chunk.js.map",
+    "runtime-main.js": "/the-storyline-method/static/js/runtime-main.ce446e40.js",
+    "runtime-main.js.map": "/the-storyline-method/static/js/runtime-main.ce446e40.js.map",
+    "static/js/2.d05a9e98.chunk.js": "/the-storyline-method/static/js/2.d05a9e98.chunk.js",
+    "static/js/2.d05a9e98.chunk.js.map": "/the-storyline-method/static/js/2.d05a9e98.chunk.js.map",
+    "static/js/3.9277110f.chunk.js": "/the-storyline-method/static/js/3.9277110f.chunk.js",
+    "static/js/3.9277110f.chunk.js.map": "/the-storyline-method/static/js/3.9277110f.chunk.js.map",
+    "index.html": "/the-storyline-method/index.html",
+    "static/css/main.5739ad41.chunk.css.map": "/the-storyline-method/static/css/main.5739ad41.chunk.css.map",
+    "static/js/2.d05a9e98.chunk.js.LICENSE.txt": "/the-storyline-method/static/js/2.d05a9e98.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/the-storyline-method/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff9ffb49.js",
+    "static/js/runtime-main.ce446e40.js",
     "static/js/2.d05a9e98.chunk.js",
-    "static/css/main.a617e044.chunk.css",
+    "static/css/main.5739ad41.chunk.css",
     "static/js/main.8a10e3df.chunk.js"
   ]
 }
