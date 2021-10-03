@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Concept" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="144" height="144" viewBox="0 0 144 144"
+	 overflow="visible" enable-background="new 0 0 144 144" xml:space="preserve">
+<path id="Concept_1_" fill="#4AA8DA" d="M70.866,2.268C31.728,2.268,0,33.996,0,73.134C0,112.272,31.728,144,70.866,144
+	c39.138,0,70.866-31.728,70.866-70.866C141.732,33.996,110.004,2.268,70.866,2.268z M75.144,103.165
+	c-6.433,6.572-15.818,14.011-25.335,13.997c4.939-3.14,8.087-9.427,9.974-14.758C36.601,99.254,19.35,87.318,19.35,73.065
+	c0-16.657,23.552-30.16,52.605-30.16c29.051,0,52.604,13.503,52.604,30.16C124.56,89.106,102.71,102.219,75.144,103.165z"/>
+</svg>

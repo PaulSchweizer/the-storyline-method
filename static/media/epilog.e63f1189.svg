@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="144" height="144" viewBox="0 0 144 144"
+	 overflow="visible" enable-background="new 0 0 144 144" xml:space="preserve">
+<g id="Epilog">
+	<path id="Epilog_1_" fill="#f6a142" d="M70.866,2.268C31.728,2.268,0,33.996,0,73.134C0,112.272,31.728,144,70.866,144
+		c39.138,0,70.866-31.728,70.866-70.866C141.732,33.996,110.004,2.268,70.866,2.268z M83.114,117.562H59.271v-17.449h23.843V117.562
+		z M86.582,51.354l-4.95,41.581H60.1l-4.95-41.581V28.707h31.432V51.354z"/>
+</g>
+</svg>
