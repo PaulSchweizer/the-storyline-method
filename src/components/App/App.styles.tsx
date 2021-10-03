@@ -4,7 +4,6 @@ import { createTheme } from "@mui/material/styles";
 
 export function useTheme(prefersDarkMode: boolean) {
   const main = "#009ee3";
-  prefersDarkMode = false;
   const theme = createTheme({
     palette: {
       mode: prefersDarkMode ? "dark" : "light",
