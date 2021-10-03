@@ -25,7 +25,7 @@ export default function Home() {
         justifyContent="center"
         columnSpacing={4}
       >
-        <Grid item marginTop={1} xs={10}>
+        <Grid item marginTop={1}>
           <Box marginTop={2} textAlign="center">
             <Typography variant="h4" color="primary">
               <i>
@@ -33,7 +33,7 @@ export default function Home() {
                 all.”
               </i>
             </Typography>
-            <Typography variant="body2" color="primary" marginTop={1}>
+            <Typography variant="body2" color="primary" marginTop={1} textAlign="right">
               Joseph Campbell
             </Typography>
           </Box>
