@@ -1,0 +1,89 @@
+{
+  "title": "Die Storyline Methode",
+  "sub_title": "Ein Rollenspiel für Geschichtenerzähler",
+  "MainHeader": {
+    "get_the_pdf": "Hol dir das PDF!"
+  },
+  "Home": {
+    "Banner": {
+      "headline1": "Rein Erzählerisch",
+      "headline2": "Sofort spielbar",
+      "headline3": "Für Gruppen",
+      "headline4": "Für Solospieler",
+      "get_the_pdf": "Hol dir das KOSTENLOSE PDF"
+    },
+    "GameOverview": {
+      "game_headline": "So läuft das Spiel ab:",
+      "episode_headline": "So erzählt ihr eine Episode:"
+    },
+    "Bottom": {
+      "twitter": "Folgt uns auf Twitter"
+    }
+  },
+  "GameSteps": {
+    "Concept": {
+      "headline": "Konzept",
+      "text_short": "Steckt den Rahmen eurer Geschichte ab.",
+      "text_long": "Steckt den Rahmen eurer Geschichte ab. Definiert das Genre, denkt über Referenzen nach, findet Themen, die euch interessieren und sprecht über die Welt, in der die Geschichte spielt. Wichtig ist es, dass ihr alle von der Idee überzeugt seid. Ihr müsst nicht auf alles eine Antwort haben, haltet euer Konzept simpel, ihr habt später ausreichend Gelegenheit, es zu konkretisieren. Dauer: 20 Minuten."
+    },
+    "Protagonists": {
+      "headline": "Protagonisten",
+      "text_short": "Jeder Erzähler erstellt einen Protagonisten.",
+      "text_long": "Jeder Erzähler erstellt einen Protagonisten. Definiert wird ein Protagonist über eine kurze Beschreibung und eine Storyline. Eine Storyline ist eine spannende Frage zum Schicksal des Protagonisten. Dieser Frage geht ihr im Laufe der Episoden nach. Eine Antwort darf aber erst gegeben werden, wenn ihr genug Plotpunkte gesammelt habt. Kümmert euch also jetzt nur um die Frage. Dauer: 20 Minuten."
+    },
+    "Pilot": {
+      "headline": "Pilotfolge",
+      "text_short": "Testet euer Konzept, indem ihr in zwei Runden reihum jeder eine Szene erzählt.",
+      "text_long": "Testet euer Konzept, indem ihr in zwei Runden reihum jeder eine Szene erzählt. Die Szenen stellen die Protagonisten in ihrer typischen Umgebung dar, zeigen charakteristische Handlungen und beziehen im besten Fall auch ihre Storylines mit ein. Wechselt die Protagonisten durch, sodass nicht jeder nur von einer Figur erzählt. Die Szenen dürfen komplett unabhängig voneinander sein. Dauer: 20 Minuten."
+    },
+    "Feedback": {
+      "headline": "Feedback",
+      "text_short": "Macht kurz Pause und redet über die Pilotfolge.",
+      "text_long": "Macht kurz Pause und redet über die Pilotfolge. Ist es euch leicht gefallen, passende Szenen zu erzählen? Habt ihr schon weiterführende Ideen zu den Protagonisten und ihren Storylines? Wenn nicht, baut die Protagonisten und ihre Storylines um oder schraubt am Konzept. Scheut euch auch nicht vor größeren Änderungen. Dauer: 10 Minuten."
+    },
+    "Episodes": {
+      "headline": "3 Episoden",
+      "text_short": "Eine Runde besteht aus drei Episoden.",
+      "text_long": "Eine Runde besteht aus drei Episoden. Für jede Episode stellt jemand anderes die Prämisse auf. Danach erzählt ihr eure Szenen für Prolog und Trailer, verteilt die Plotpunkte und schließt die Episode mit Finale und Epilog ab, wie in der Übersicht für Episoden beschrieben. Dauer: 3 x 60 Minuten."
+    },
+
+    "Premise": {
+      "headline": "Prämisse",
+      "text_short": "Die Prämisse ist eine simple Ansage an die Erzähler, um was es in der Episode gehen soll.",
+      "text_long": "Die Prämisse ist eine simple Ansage an die Erzähler, um was es in der Episode gehen soll. Ein simples Thema oder ein Schauplatz reichen meist aus, z. B. „Die Episode spielt auf einem Jahrmarkt“. Ihr könnt auch den Titel der Episode oder eine Beschreibung des Artworks auf dem Cover als Prämisse nutzen. Für jede Episode stellt reihum ein anderer von euch die Prämisse auf. Nutzt die Gelegenheit etwas zum Thema zu machen, das euch persönlich interessiert. Dauer: 5 Minuten."
+    },
+    "Prologue": {
+      "headline": "Prolog",
+      "text_short": "Im Prolog geht es darum, das Geschehen in Gang zu setzen.",
+      "text_long": "Im Prolog geht es darum, das Geschehen in Gang zu setzen. Nutzt Foreshadowing um zukünftige Ereignisse anzuregen. Werft Fragen auf, die ihr später in der Episode beantworten könnt. Hierzu erzählt jeder eine Szene (1-2 Erzähler: 2 Szenen). Stimmt eure Szenen gut aufeinander ab und teilt alle Metainformation miteinander. Ihr müsst immer alle das gleiche Bild im Kopf haben und wissen, in welche Richtung sich die Handlung entwickeln wird. Dauer: 15 Minuten."
+    },
+    "Trailer": {
+      "headline": "Trailer",
+      "text_short": "Wie in einem Filmtrailer zeigen diese Szenen eine wilde Mischung der dramatischsten Momente.",
+      "text_long": "Wie in einem Filmtrailer zeigen diese Szenen eine wilde Mischung der dramatischsten Momente. Die Protagonisten zeigen ihre Fähigkeiten, geraten aber trotzdem in ausweglos erscheinende Situationen. Die Szenen sind visuell eindrucksvoll und kurz. Der Ausgang der Episode bleibt noch komplett offen! Diesmal werden die Szenen nicht abgesprochen, sondern jeder Erzähler trägt mit einer individuellen Szene zum Spektakel bei (1-2 Erzähler: 2 Szenen). Dauer: 10 Minuten."
+    },
+    "Plotpoints": {
+      "headline": "Plotpunkte",
+      "text_short": "An dieser Stelle erhält jeder Protagonist einen Plotpunkt.",
+      "text_long": "An dieser Stelle erhält jeder Protagonist einen Plotpunkt. Die Zuweisung auf eine Storyline ergibt sich entweder aus dem gerade Geschehenen oder deutet an, was im Finale passieren wird. An dieser Stelle kann auch jederzeit eine neue Storyline eröffnet werden (der Plotpunkt wird dieser dann direkt zugewiesen). Für jede  Storyline, die hierbei abgeschlossen wird, erhält der Protagonist im Epilog eine zusätzliche Szene. Dauer: 5 Minuten."
+    },
+    "Finale": {
+      "headline": "Finale",
+      "text_short": "Beantwortet die Fragen aus Prolog und Trailer möglichst dramatisch.",
+      "text_long": "Beantwortet die Fragen aus Prolog und Trailer möglichst dramatisch. Es muss nicht alles geklärt werden, überspringt Teile der Handlung und startet direkt mit den wichtigsten Momenten. Denkt auch an die gerade verteilten Plotpunkte. Jeder erzählt wieder eine Szene (1-2 Erzähler: 2 Szenen). Ähnlich wie im Prolog geht es stark um Kooperation. Sprecht euch ab und nutzt die Szenen dazu, den Handlungsbogen der Episode erkenntlich zu machen. Dauer: 15 Minuten."
+    },
+    "Epilogue": {
+      "headline": "Epilog",
+      "text_short": "Beschreibt, was die Ereignisse der Episode für die Protagonisten, ihre Storylines und die Welt bedeuten.",
+      "text_long": "Beschreibt, was die Ereignisse der Episode für die Protagonisten, ihre Storylines und die Welt bedeuten. Cliffhanger sind auch möglich. Außerdem gibt es für jede gerade abgeschlossene Storyline eine Extraszene. Gebt zuerst die Antwort auf die Frage der Storyline. Die Szene reflektiert dann die Antwort oder führt eine neue Storyline ein. Protagonisten ohne offene Fragen bekommen eine neue Storyline. Dauer: 10-20 Minuten."
+    },
+    "Review": {
+      "headline": "Rückblick",
+      "text_short": "Eine Runde ist beendet, macht erst mal Pause und lasst das Erzählte auf euch wirken.",
+      "text_long": "Eine Runde ist beendet, macht erst mal Pause und lasst das Erzählte auf euch wirken. Bevor ihr die nächste Runde an Episoden beginnt, nehmt euch ausreichend Zeit, alle notwendigen Anpassungen an den Protagonisten, Storylines und dem Konzept zu machen, scheut euch auch nicht vor großen Änderungen, wenn ihr merkt, dass etwas nicht funktioniert. Wenn ihr ganz unzufrieden seid, beginnt einfach wieder von vorn und erstellt ein neues, besseres Konzept."
+    },
+    "NextEpisode": {
+      "headline": "Nächste Episode..."
+    }
+  }
+}

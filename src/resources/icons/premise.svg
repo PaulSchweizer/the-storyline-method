@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="144" height="144" viewBox="0 0 144 144"
+	 overflow="visible" enable-background="new 0 0 144 144" xml:space="preserve">
+<g id="Premise">
+	<path id="Premise_1_" fill="#0077c0" d="M70.866,2.268C31.728,2.268,0,33.996,0,73.134C0,112.272,31.728,144,70.866,144
+		c39.138,0,70.866-31.728,70.866-70.866C141.732,33.996,110.004,2.268,70.866,2.268z M111.603,76.842
+		c-3.198,1.886-55.453,32.101-59.237,34.199c-2.771,1.539-6.406-0.161-6.406-3.663v-68.38c0-3.179,3.289-5.544,6.539-3.685
+		c2.605,1.489,54.662,31.55,59.104,34.122C114.521,71.125,114.472,75.151,111.603,76.842z"/>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="144" height="144" viewBox="0 0 144 144"
+	 overflow="visible" enable-background="new 0 0 144 144" xml:space="preserve">
+<g id="Finale">
+	<path id="Finale_1_" fill="#e83f3f" d="M70.866,2.268C31.728,2.268,0,33.996,0,73.134C0,112.272,31.728,144,70.866,144
+		c39.138,0,70.866-31.728,70.866-70.866C141.732,33.996,110.004,2.268,70.866,2.268z M114.707,91.4l-24.354-2.899l15.077,29.574
+		L75.274,96.62l-24.936,28.414l11.598-35.373l-36.533,18.557l25.515-26.096l-38.273-5.799l34.794-6.958L27.143,54.288l24.936,1.74
+		L32.942,28.192l31.314,20.877l3.479-19.717l5.799,17.977L96.73,21.233l-5.219,28.995l26.675-5.799L94.991,61.827l26.096,3.479
+		L97.891,76.903L114.707,91.4z"/>
+</g>
+</svg>
