@@ -7,6 +7,8 @@ import {
   Grid,
   Link,
   Typography,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material";
 
 import BookImg from "./../../resources/img/book-eng.png";
@@ -20,6 +22,9 @@ import { useTranslation } from "react-i18next";
 
 export default function Banner() {
   const { t } = useTranslation();
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("md"));
+
   return (
     <Grid
       container
@@ -31,18 +36,18 @@ export default function Banner() {
         <img src={BookImg} width="100%" />
       </Grid>
       <Grid item xs={10} md={6} lg={4}>
-        <Box p={2} textAlign="left">
-          <Typography variant="h4" color="primary">
+        <Box p={1} textAlign="left">
+          <Typography variant={isSmallScreen ? "h5" : "h4"} color="primary">
             <HistoryEduIcon color="primary" /> {t("Home.Banner.headline1")}
           </Typography>
-          <Typography variant="h4" color="primary">
+          <Typography variant={isSmallScreen ? "h5" : "h4"} color="primary">
             <PlayCircleOutlineIcon color="primary" />{" "}
             {t("Home.Banner.headline2")}
           </Typography>
-          <Typography variant="h4" color="primary">
+          <Typography variant={isSmallScreen ? "h5" : "h4"} color="primary">
             <GroupIcon color="primary" /> {t("Home.Banner.headline3")}
           </Typography>
-          <Typography variant="h4" color="primary">
+          <Typography variant={isSmallScreen ? "h5" : "h4"} color="primary">
             <PersonIcon color="primary" /> {t("Home.Banner.headline4")}
           </Typography>
         </Box>
