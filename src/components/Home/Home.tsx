@@ -19,7 +19,6 @@ export default function Home() {
     <Stack>
       <Banner />
       <GameOverview />
-
       <Grid
         container
         alignItems="center"

@@ -7,15 +7,15 @@ export const useStyles = makeStyles({
   title: {
     color: "white",
     fontFamily: "Myriad !important",
-    fontSize: "2.4em !important",
-    marginTop: "-0.2em !important",
+    fontSize: "2.4rem !important",
+    marginTop: "-0.2rem !important",
   },
   subTitle: {
     color: "white",
     fontFamily:
       "Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif !important",
-    fontSize: "1.04em !important",
+    fontSize: "1.04rem !important",
     fontStyle: "italic !important",
-    marginTop: "-0.8em !important",
+    marginTop: "-0.8rem !important",
   },
 });

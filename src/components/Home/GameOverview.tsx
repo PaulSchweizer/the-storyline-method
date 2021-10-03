@@ -26,14 +26,15 @@ export default function GameOverview() {
   ];
 
   return (
-    <Paper elevation={3} square component="div">
+    <Box marginTop={2}>
+    <Paper elevation={3} square component="div" >
       <Grid
         container
         alignItems="center"
         justifyContent="center"
         columnSpacing={4}
       >
-        <Grid item marginTop={2} marginBottom={2} lg={12}>
+        <Grid item marginTop={2} marginBottom={2} xs={12}>
           <Box textAlign="center">
             <Box marginBottom={4}>
               <Typography variant="h4" color="text.primary">
@@ -51,5 +52,6 @@ export default function GameOverview() {
         </Grid>
       </Grid>
     </Paper>
+    </Box>
   );
 }

@@ -27,10 +27,10 @@ export default function Banner() {
       justifyContent="center"
       columnSpacing={4}
     >
-      <Grid item marginTop={2} marginBottom={2} xs={2}>
-        <img src={BookImg} width="200" />
+      <Grid item marginTop={2} xs={5} md={4} lg={2}>
+        <img src={BookImg} width="100%" />
       </Grid>
-      <Grid item xs={3} marginTop={2} marginBottom={2}>
+      <Grid item xs={10} md={6} lg={4}>
         <Box p={2} textAlign="left">
           <Typography variant="h4" color="primary">
             <HistoryEduIcon color="primary" /> {t("Home.Banner.headline1")}
@@ -47,7 +47,7 @@ export default function Banner() {
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={3} justifyContent="center" marginTop={2} marginBottom={2}>
+      <Grid item justifyContent="center" xs={10} md={6} lg={4}>
         <Card raised={true} sx={{ backgroundColor: "#009ee3" }}>
           <Box p={2} textAlign="center">
             <CardContent>

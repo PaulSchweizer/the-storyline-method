@@ -1,4 +1,11 @@
-import { Step, StepLabel, Stepper } from "@mui/material";
+import {
+  Box,
+  Step,
+  StepLabel,
+  Stepper,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 
 import { ICONS } from "../Icons";
 import StepSection from "./StepSection";
@@ -12,13 +19,19 @@ interface Props {
 export default function GameSteps(props: Props) {
   const { t } = useTranslation();
   const { steps } = props;
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <Stepper alternativeLabel orientation="horizontal">
-      {steps.map((step) => (
-        <StepSection step={step} />
-      ))}
-      {/* <Step key={"next-episode"} last={true}>
+    <Box marginLeft={2} marginRight={2}>
+      <Stepper
+        alternativeLabel
+        orientation={isSmallScreen ? "vertical" : "horizontal"}
+      >
+        {steps.map((step) => (
+          <StepSection step={step} />
+        ))}
+        {/* <Step key={"next-episode"} last={true}>
         <StepLabel
           icon={
             <TimelineDot variant="outlined">
@@ -29,6 +42,7 @@ export default function GameSteps(props: Props) {
           {t("GameSteps.NextEpisode.headline")}
         </StepLabel>
       </Step> */}
-    </Stepper>
+      </Stepper>
+    </Box>
   );
 }
