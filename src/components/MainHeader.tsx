@@ -21,8 +21,24 @@ export default function MainHeader() {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("md"));
 
-  const titleFontSize = isSmallScreen ? "2.1rem" : "2.4rem";
-  const subTitleFontSize = isSmallScreen ? "0.9rem" : "1.04rem";
+  const titleSx = isSmallScreen
+    ? undefined
+    : {
+        fontFamily: "Myriad !important",
+        marginTop: "-0.2rem !important",
+        fontSize: "2.5rem",
+        color: "white",
+      };
+  const subTitleSx = isSmallScreen
+    ? undefined
+    : {
+        fontFamily:
+          "Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif !important",
+        fontStyle: "italic !important",
+        marginTop: "-0.75rem !important",
+        fontSize: "1.04rem !important",
+        color: "white",
+      };
 
   return (
     <AppBar position="sticky">
@@ -35,21 +51,11 @@ export default function MainHeader() {
         >
           <Grid item xs={11} md={9} lg={10}>
             <NavLink to="/" className={classes.titleWrapper}>
-              <Typography
-                className={classes.title}
-                sx={{
-                  fontSize: `${titleFontSize} !important`,
-                }}
-              >
+              <Typography sx={titleSx} variant={"h5"} color="white">
                 {t("title")}
               </Typography>
-              <Typography
-                className={classes.subTitle}
-                sx={{
-                  fontSize: `${subTitleFontSize} !important`,
-                }}
-              >
-                {t("sub_title")}
+              <Typography sx={subTitleSx} variant="body2" color="white">
+                <i>{t("sub_title")}</i>
               </Typography>
             </NavLink>
           </Grid>
