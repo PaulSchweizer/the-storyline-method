@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/the-storyline-method/static/css/main.074e30af.chunk.css",
-    "main.js": "/the-storyline-method/static/js/main.98ff20a6.chunk.js",
-    "main.js.map": "/the-storyline-method/static/js/main.98ff20a6.chunk.js.map",
-    "runtime-main.js": "/the-storyline-method/static/js/runtime-main.bc23b639.js",
-    "runtime-main.js.map": "/the-storyline-method/static/js/runtime-main.bc23b639.js.map",
-    "static/js/2.f4b49e97.chunk.js": "/the-storyline-method/static/js/2.f4b49e97.chunk.js",
-    "static/js/2.f4b49e97.chunk.js.map": "/the-storyline-method/static/js/2.f4b49e97.chunk.js.map",
-    "static/js/3.753d40d9.chunk.js": "/the-storyline-method/static/js/3.753d40d9.chunk.js",
-    "static/js/3.753d40d9.chunk.js.map": "/the-storyline-method/static/js/3.753d40d9.chunk.js.map",
+    "main.js": "/the-storyline-method/static/js/main.7124f6e2.chunk.js",
+    "main.js.map": "/the-storyline-method/static/js/main.7124f6e2.chunk.js.map",
+    "runtime-main.js": "/the-storyline-method/static/js/runtime-main.09e62649.js",
+    "runtime-main.js.map": "/the-storyline-method/static/js/runtime-main.09e62649.js.map",
+    "static/js/2.63ccd614.chunk.js": "/the-storyline-method/static/js/2.63ccd614.chunk.js",
+    "static/js/2.63ccd614.chunk.js.map": "/the-storyline-method/static/js/2.63ccd614.chunk.js.map",
+    "static/js/3.6cf70d07.chunk.js": "/the-storyline-method/static/js/3.6cf70d07.chunk.js",
+    "static/js/3.6cf70d07.chunk.js.map": "/the-storyline-method/static/js/3.6cf70d07.chunk.js.map",
     "index.html": "/the-storyline-method/index.html",
     "static/css/main.074e30af.chunk.css.map": "/the-storyline-method/static/css/main.074e30af.chunk.css.map",
-    "static/js/2.f4b49e97.chunk.js.LICENSE.txt": "/the-storyline-method/static/js/2.f4b49e97.chunk.js.LICENSE.txt",
+    "static/js/2.63ccd614.chunk.js.LICENSE.txt": "/the-storyline-method/static/js/2.63ccd614.chunk.js.LICENSE.txt",
     "static/media/book-eng.0749c583.png": "/the-storyline-method/static/media/book-eng.0749c583.png",
     "static/media/concept.b1a4a206.svg": "/the-storyline-method/static/media/concept.b1a4a206.svg",
     "static/media/drive-thru-logo.841113b5.png": "/the-storyline-method/static/media/drive-thru-logo.841113b5.png",
@@ -30,9 +30,9 @@
     "static/media/trailer.ccd889ff.svg": "/the-storyline-method/static/media/trailer.ccd889ff.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc23b639.js",
-    "static/js/2.f4b49e97.chunk.js",
+    "static/js/runtime-main.09e62649.js",
+    "static/js/2.63ccd614.chunk.js",
     "static/css/main.074e30af.chunk.css",
-    "static/js/main.98ff20a6.chunk.js"
+    "static/js/main.7124f6e2.chunk.js"
   ]
 }
