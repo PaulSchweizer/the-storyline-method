@@ -70,7 +70,7 @@ export default function Home() {
           <Divider />
           <Box textAlign="center" marginTop={2} marginBottom={2}>
             <Typography variant="body2" color="text.secondary">
-              © 2001 Paul Schweizer
+              © 2021 Paul Schweizer
             </Typography>
           </Box>
         </Grid>
