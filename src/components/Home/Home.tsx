@@ -48,7 +48,7 @@ export default function Home() {
       >
         <Grid item marginTop={2} xs={10}>
           <Divider />
-          <Box textAlign="center" marginTop={2}>
+          <Box textAlign="center" marginTop={2} marginLeft={2} marginRight={2}>
             <Button
               variant="outlined"
               color="primary"
