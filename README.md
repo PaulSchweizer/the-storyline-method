@@ -1,6 +1,6 @@
 # The Storyline Method - Website
 
-https://app.bitly.com/Bla3bjSk81w/bitlinks/3l5PtEh
+https://bit.ly/the-storyline-method
 
 
 ## Deployment
