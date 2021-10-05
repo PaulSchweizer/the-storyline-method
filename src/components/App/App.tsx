@@ -12,6 +12,7 @@ import { useTheme } from "./App.styles";
 
 export const driveThruLink =
   "https://www.drivethrurpg.com/product/342631/Die-Storyline-Methode";
+export const twitterLink = "https://twitter.com/StorylineMethod";
 
 export enum StepType {
   Welcome = "Welcome",

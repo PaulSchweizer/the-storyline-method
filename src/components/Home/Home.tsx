@@ -10,6 +10,7 @@ import {
 import Banner from "./Banner";
 import GameOverview from "./GameOverview";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import { twitterLink } from "../App/App";
 import { useTranslation } from "react-i18next";
 
 export default function Home() {
@@ -53,6 +54,8 @@ export default function Home() {
               variant="outlined"
               color="primary"
               startIcon={<TwitterIcon />}
+              target="_blank"
+              href={twitterLink}
             >
               {t("Home.Bottom.twitter")}
             </Button>
