@@ -15,6 +15,7 @@ import { StepType } from "../../App/App";
 import { TimelineDot } from "@mui/lab";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   episode: Episode;
@@ -23,6 +24,7 @@ interface Props {
 }
 export default function EpisodeTreeItem(props: Props) {
   const location = useLocation();
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -45,7 +47,10 @@ export default function EpisodeTreeItem(props: Props) {
           </TimelineDot>
         </ListItemIcon>
         <ListItemText
-          primary={`Episode ${props.roundIndex + 1}.${props.index + 1}`}
+          primary={`${t("StoryTimeline.Sections.Episode")} ${
+            props.roundIndex + 1
+          }.${props.index + 1}`}
+          secondary={props.episode.title}
         />
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>

@@ -37,6 +37,7 @@
     {
       "episodes": [
         {
+          "title": "Ein Auftrag geht komplett schief",
           "steps": {
             "Premise": [
               {
@@ -80,6 +81,7 @@
           }
         },
         {
+          "title": "Träume",
           "steps": {
             "Premise": [
               {

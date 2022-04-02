@@ -1,5 +1,4 @@
 import {
-  Box,
   Grid,
   Stack,
   Typography,
@@ -16,10 +15,12 @@ import ProtagonistItem from "./ProtagonistItem";
 import StepItem from "./StepItem";
 import { StepType } from "../../App/App";
 import _ from "lodash";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   step: StepType;
-  label: string;
+  primary: string;
+  secondary?: string;
   color: string;
 }
 
@@ -36,14 +37,21 @@ function Title(props: Props) {
               {ICONS[props.step]}
             </TimelineDot>
           </TimelineSeparator>
-          <Typography variant="h4" sx={{ color: props.color }}>
-            {props.label}
+          <Typography variant="h5" sx={{ color: props.color }}>
+            {props.primary}
           </Typography>
         </Stack>
       ) : (
-        <Typography variant="h4" sx={{ color: props.color }}>
-          {props.label}
-        </Typography>
+        <>
+          <Typography variant="h5" sx={{ color: props.color }}>
+            {props.primary}
+          </Typography>
+          {props.secondary && (
+            <Typography variant="h6" sx={{ color: props.color }}>
+              <i>{props.secondary}</i>
+            </Typography>
+          )}
+        </>
       )}
     </>
   );
@@ -53,6 +61,7 @@ interface StoryProps {
   story: Story;
 }
 export default function StoryTimeline(props: StoryProps) {
+  const { t } = useTranslation();
   const stepTypes = [
     "Premise",
     "Prologue",
@@ -72,7 +81,7 @@ export default function StoryTimeline(props: StoryProps) {
               <>
                 <Title
                   step={StepType.Concept}
-                  label="Concept"
+                  primary={t("StoryTimeline.Sections.Concept")}
                   color="#00a2bd"
                 />
                 <ConceptItem concept={props.story.concept} />
@@ -87,7 +96,7 @@ export default function StoryTimeline(props: StoryProps) {
             text={
               <Title
                 step={StepType.Protagonists}
-                label="Protagonists"
+                primary={t("StoryTimeline.Sections.Protagonists")}
                 color="#13aa74"
               />
             }
@@ -110,7 +119,13 @@ export default function StoryTimeline(props: StoryProps) {
 
           <StepItem
             type="Pilot"
-            text={<Title step={StepType.Pilot} label="Pilot" color="#67b437" />}
+            text={
+              <Title
+                step={StepType.Pilot}
+                primary={t("StoryTimeline.Sections.Pilot")}
+                color="#67b437"
+              />
+            }
             id="Pilot"
           />
           {props.story.pilot.scenes.map((scene, sceneIndex) => {
@@ -133,7 +148,9 @@ export default function StoryTimeline(props: StoryProps) {
                   text={
                     <Title
                       step={StepType.Review}
-                      label={`Round ${roundIndex + 1}`}
+                      primary={`${t("StoryTimeline.Sections.Review")} ${
+                        roundIndex + 1
+                      }`}
                       color="#f7e000"
                     />
                   }
@@ -149,9 +166,10 @@ export default function StoryTimeline(props: StoryProps) {
                         text={
                           <Title
                             step={StepType.Episodes}
-                            label={` Episode ${roundIndex + 1}.${
-                              episodeIndex + 1
-                            }`}
+                            primary={`${t("StoryTimeline.Sections.Episode")} ${
+                              roundIndex + 1
+                            }.${episodeIndex + 1}`}
+                            secondary={episode.title}
                             color="#d3d800"
                           />
                         }

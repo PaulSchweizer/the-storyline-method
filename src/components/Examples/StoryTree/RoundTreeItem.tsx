@@ -14,6 +14,7 @@ import { Round } from "../../../types/Story";
 import { TimelineDot } from "@mui/lab";
 import { useLocation } from "react-router";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   round: Round;
@@ -21,6 +22,7 @@ interface Props {
 }
 export default function RoundTreeItem(props: Props) {
   const location = useLocation();
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -42,7 +44,9 @@ export default function RoundTreeItem(props: Props) {
             {ICONS.Review}
           </TimelineDot>
         </ListItemIcon>
-        <ListItemText primary={`Round ${props.index + 1}`} />
+        <ListItemText
+          primary={`${t("StoryTimeline.Sections.Round")} ${props.index + 1}`}
+        />
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={open} timeout="auto">

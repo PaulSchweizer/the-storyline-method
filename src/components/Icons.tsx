@@ -18,33 +18,59 @@ import { ReactComponent as Welcome } from "./../resources/icons/intro.svg";
 
 const s = 24;
 
-export const WelcomeIcon = () => <Welcome width={s} height={s} />;
+export const WelcomeIcon = () => (
+  <Welcome width={s} height={s} className="icon" />
+);
 
-export const ConceptIcon = () => <Concept width={s} height={s} />;
+export const ConceptIcon = () => (
+  <Concept width={s} height={s} className="icon" />
+);
 
-export const ProtagonistsIcon = () => <Protagonists width={s} height={s} />;
+export const ProtagonistsIcon = () => (
+  <Protagonists width={s} height={s} className="icon" />
+);
 
-export const PilotIcon = () => <Pilot width={s} height={s} />;
+export const PilotIcon = () => <Pilot width={s} height={s} className="icon" />;
 
-export const FeedbackIcon = () => <Feedback width={s} height={s} />;
+export const FeedbackIcon = () => (
+  <Feedback width={s} height={s} className="icon" />
+);
 
-export const EpisodesIcon = () => <Episodes width={s} height={s} />;
+export const EpisodesIcon = () => (
+  <Episodes width={s} height={s} className="icon" />
+);
 
-export const PremiseIcon = () => <Premise width={s} height={s} />;
+export const PremiseIcon = () => (
+  <Premise width={s} height={s} className="icon" />
+);
 
-export const PrologueIcon = () => <Prologue width={s} height={s} />;
+export const PrologueIcon = () => (
+  <Prologue width={s} height={s} className="icon" />
+);
 
-export const TrailerIcon = () => <Trailer width={s} height={s} />;
+export const TrailerIcon = () => (
+  <Trailer width={s} height={s} className="icon" />
+);
 
-export const PlotpointsIcon = () => <Plotpoints width={s} height={s} />;
+export const PlotpointsIcon = () => (
+  <Plotpoints width={s} height={s} className="icon" />
+);
 
-export const FinaleIcon = () => <Finale width={s} height={s} />;
+export const FinaleIcon = () => (
+  <Finale width={s} height={s} className="icon" />
+);
 
-export const EpilogueIcon = () => <Epilogue width={s} height={s} />;
+export const EpilogueIcon = () => (
+  <Epilogue width={s} height={s} className="icon" />
+);
 
-export const ReviewIcon = () => <Review width={s} height={s} />;
+export const ReviewIcon = () => (
+  <Review width={s} height={s} className="icon" />
+);
 
-export const NextEpisodeIcon = () => <NextEpisode width={s} height={s} />;
+export const NextEpisodeIcon = () => (
+  <NextEpisode width={s} height={s} className="icon" />
+);
 
 export const ICONS: { [key: string]: ReactElement } = {
   Welcome: <WelcomeIcon />,

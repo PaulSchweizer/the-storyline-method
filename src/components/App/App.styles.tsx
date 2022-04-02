@@ -78,6 +78,16 @@ export function useTheme(prefersDarkMode: boolean) {
           },
         },
       },
+      MuiListItemIcon: {
+        styleOverrides: {
+          root: {
+            "& .MuiTimelineDot-root": {
+              backgroundColor: "#00000000",
+              // filter: "none !important",
+            },
+          },
+        },
+      },
     },
   });
   return theme;

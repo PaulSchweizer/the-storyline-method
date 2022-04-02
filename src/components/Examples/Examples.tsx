@@ -1,7 +1,17 @@
+import { Box } from "@mui/material";
 import ExamplesOverview from "./ExamplesOverview";
 import { STORIES } from "../App/App";
 import StoryTimeline from "./StoryTimeline/StoryTimeline";
 import { useParams } from "react-router-dom";
+
+const sx = {
+  ".icon": {
+    filter: "grayscale(1)",
+    ":hover": {
+      filter: "none",
+    },
+  },
+};
 
 export default function Examples() {
   const { storyId } = useParams<{ storyId: string }>();
@@ -16,12 +26,12 @@ export default function Examples() {
   }
 
   return (
-    <>
+    <Box sx={sx}>
       {activeStory ? (
         <StoryTimeline story={activeStory} />
       ) : (
         <ExamplesOverview />
       )}
-    </>
+    </Box>
   );
 }

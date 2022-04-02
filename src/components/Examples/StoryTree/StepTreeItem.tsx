@@ -5,6 +5,7 @@ import { ICONS } from "../../Icons";
 import { StepType } from "../../App/App";
 import { TimelineDot } from "@mui/lab";
 import { useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   step: StepType;
@@ -13,6 +14,7 @@ interface Props {
 }
 export default function StepTreeItem(props: Props) {
   const location = useLocation();
+  const { t } = useTranslation();
   return (
     <>
       <ListItem
@@ -32,7 +34,7 @@ export default function StepTreeItem(props: Props) {
             {ICONS[props.step]}
           </TimelineDot>
         </ListItemIcon>
-        <ListItemText primary={props.step} />
+        <ListItemText primary={t(`StoryTimeline.Sections.${props.step}`)} />
       </ListItem>
     </>
   );

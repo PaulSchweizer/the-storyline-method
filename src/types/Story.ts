@@ -3,6 +3,7 @@ export interface Step {
 }
 
 export interface Episode {
+  title?: string;
   steps: {
     Premise?: Step[];
     Prologue?: Step[];
@@ -34,7 +35,7 @@ export interface Storyline {
 export interface Protagonist {
   name: string;
   description: string;
-  storylines: Storyline[]
+  storylines: Storyline[];
 }
 
 export default interface Story {

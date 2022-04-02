@@ -13,6 +13,7 @@ import { ICONS } from "../../Icons";
 import RoundTreeItem from "./RoundTreeItem";
 import Story from "../../../types/Story";
 import { TimelineDot } from "@mui/lab";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   story: Story;
@@ -20,6 +21,7 @@ interface Props {
 }
 export default function StoryTree(props: Props) {
   const location = useLocation();
+  const { t } = useTranslation();
   return (
     <>
       <ListItem
@@ -51,7 +53,7 @@ export default function StoryTree(props: Props) {
                 {ICONS.Concept}
               </TimelineDot>
             </ListItemIcon>
-            <ListItemText primary={"Concept"} />
+            <ListItemText primary={t("StoryTimeline.Sections.Concept")} />
           </ListItem>
 
           <ListItem
@@ -71,7 +73,7 @@ export default function StoryTree(props: Props) {
                 {ICONS.Protagonists}
               </TimelineDot>
             </ListItemIcon>
-            <ListItemText primary={"Protagonists"} />
+            <ListItemText primary={t("StoryTimeline.Sections.Protagonists")} />
           </ListItem>
 
           <ListItem
@@ -91,7 +93,7 @@ export default function StoryTree(props: Props) {
                 {ICONS.Pilot}
               </TimelineDot>
             </ListItemIcon>
-            <ListItemText primary={"Pilot"} />
+            <ListItemText primary={t("StoryTimeline.Sections.Pilot")} />
           </ListItem>
 
           {props.story.rounds.map((round, roundIndex) => {

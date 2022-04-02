@@ -47,7 +47,6 @@
       "text_short": "Eine Runde besteht aus drei Episoden.",
       "text_long": "Eine Runde besteht aus drei Episoden. Für jede Episode stellt jemand anderes die Prämisse auf. Danach erzählt ihr eure Szenen für Prolog und Trailer, verteilt die Plotpunkte und schließt die Episode mit Finale und Epilog ab, wie in der Übersicht für Episoden beschrieben. Dauer: 3 x 60 Minuten."
     },
-
     "Premise": {
       "headline": "Prämisse",
       "text_short": "Die Prämisse ist eine simple Ansage an die Erzähler, um was es in der Episode gehen soll.",
@@ -85,6 +84,22 @@
     },
     "NextEpisode": {
       "headline": "Nächste Episode..."
+    }
+  },
+  "StoryTimeline": {
+    "Sections": {
+      "Concept": "Konzept",
+      "Protagonists": "Protagonisten",
+      "Pilot": "Pilotfolge",
+      "Review": "Rückblick",
+      "Round": "Runde",
+      "Episode": "Episode",
+      "Premise": "Prämisse",
+      "Prologue": "Prolog",
+      "Trailer": "Trailer",
+      "Plotpoints": "Plotpunkte",
+      "Finale": "Finale",
+      "Epilogue": "Epilog"
     }
   }
 }
