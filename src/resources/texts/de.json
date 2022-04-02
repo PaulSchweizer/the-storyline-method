@@ -2,7 +2,7 @@
   "title": "Die Storyline Methode",
   "sub_title": "Ein Rollenspiel für Geschichtenerzähler",
   "MainHeader": {
-    "get_the_pdf": "Hol dir das PDF!"
+    "get_the_pdf": "Download"
   },
   "Home": {
     "Banner": {
@@ -17,7 +17,8 @@
       "episode_headline": "So erzählt ihr eine Episode:"
     },
     "Bottom": {
-      "twitter": "Folgt uns auf Twitter"
+      "twitter": "Folgt uns auf Twitter",
+      "email_contact": "Oder schreibt uns eine E-Mail: "
     }
   },
   "GameSteps": {

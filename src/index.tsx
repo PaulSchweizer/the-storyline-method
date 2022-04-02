@@ -1,14 +1,13 @@
-import './index.css';
 import "./i18n";
 
-import App from './components/App/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Routes from "./components/App/Routes";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );

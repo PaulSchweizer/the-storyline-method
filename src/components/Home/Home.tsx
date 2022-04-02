@@ -26,7 +26,7 @@ export default function Home() {
         justifyContent="center"
         columnSpacing={4}
       >
-        <Grid item marginTop={1}>
+        <Grid item marginTop={1} marginRight={1} marginLeft={1}>
           <Box marginTop={2} textAlign="center">
             <Typography variant="h4" color="primary">
               <i>
@@ -34,7 +34,7 @@ export default function Home() {
                 all.”
               </i>
             </Typography>
-            <Typography variant="body2" color="primary" marginTop={1} textAlign="right">
+            <Typography variant="body2" color="primary" textAlign="right">
               Joseph Campbell
             </Typography>
           </Box>
@@ -59,6 +59,12 @@ export default function Home() {
             >
               {t("Home.Bottom.twitter")}
             </Button>
+          </Box>
+          <Box textAlign="center" marginTop={1} marginLeft={2} marginRight={2}>
+            <Typography variant="body2" color="primary" marginTop={1}>
+              {t("Home.Bottom.email_contact")}
+              <b>storylinemethod(at)gmail.com</b>
+            </Typography>
           </Box>
         </Grid>
       </Grid>

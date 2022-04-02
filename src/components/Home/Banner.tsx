@@ -33,7 +33,7 @@ export default function Banner() {
       columnSpacing={4}
     >
       <Grid item marginTop={2} xs={5} md={4} lg={2}>
-        <img src={BookImg} width="100%" />
+        <img src={BookImg} alt="Storyline Book" width="100%" />
       </Grid>
       <Grid item xs={10} md={6} lg={4}>
         <Box p={1} textAlign="left">
@@ -63,7 +63,7 @@ export default function Banner() {
             <Link target="_blank" href={driveThruLink}>
               <CardMedia
                 component="img"
-                alt="drive thru rpg logo"
+                alt="DriveThru RPG Logo"
                 image={DriveThruLogo}
               ></CardMedia>
             </Link>

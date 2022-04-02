@@ -39,7 +39,7 @@ export default function StepSection(props: Props) {
           icon={<TimelineDot variant="outlined">{ICONS[step]}</TimelineDot>}
         />
         <Box marginTop={2}>
-          <Paper elevation={0} variant="outlined">
+          <Paper elevation={6}>
             <Box
               paddingLeft={1}
               paddingRight={1}

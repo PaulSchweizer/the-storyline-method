@@ -1,4 +1,4 @@
-import { Box, Grid, Paper, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 
 import GameSteps from "./GameSteps";
 import { StepType } from "../App/App";
@@ -27,7 +27,6 @@ export default function GameOverview() {
 
   return (
     <Box marginTop={2}>
-    <Paper elevation={3} square component="div" >
       <Grid
         container
         alignItems="center"
@@ -51,7 +50,6 @@ export default function GameOverview() {
           </Box>
         </Grid>
       </Grid>
-    </Paper>
     </Box>
   );
 }

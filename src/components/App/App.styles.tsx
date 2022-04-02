@@ -3,27 +3,30 @@ import type {} from "@mui/lab/themeAugmentation";
 import { createTheme } from "@mui/material/styles";
 
 export function useTheme(prefersDarkMode: boolean) {
-  const main = "#009ee3";
-  const theme = createTheme({
+  prefersDarkMode = true;
+  const paletteTheme = createTheme({
     palette: {
       mode: prefersDarkMode ? "dark" : "light",
       primary: {
-        main: main,
+        light: "#62cfff",
+        main: "#009ee3",
+        dark: "#0070b1",
       },
       secondary: {
-        main: "#0077c0",
+        light: "#ff746a",
+        main: "#e83f3f",
+        dark: "#ae0018",
       },
     },
-    typography: {
-      button: {
-        textTransform: "none",
-      },
-    },
+  });
+
+  const theme = createTheme({
+    ...paletteTheme,
     components: {
-      MuiAppBar: {
+      MuiPaper: {
         styleOverrides: {
-          root: {
-            backgroundColor: main,
+          outlined: {
+            borderColor: paletteTheme.palette.text.secondary,
           },
         },
       },
@@ -36,22 +39,42 @@ export function useTheme(prefersDarkMode: boolean) {
           },
         },
       },
-      MuiTimelineDot: {
+      MuiStepConnector: {
         styleOverrides: {
-          outlined: {
-            borderColor: prefersDarkMode ? "white" : "black",
-            margin: "-4px",
-            borderWidth: "1px",
+          root: {
+            left: "calc(-50%)",
+            right: "calc(50%)",
+          },
+          line: {
+            borderColor: paletteTheme.palette.text.secondary,
           },
         },
       },
-      MuiPaper: {
+      MuiTimelineDot: {
         styleOverrides: {
           outlined: {
-            borderColor: prefersDarkMode
-              ? "rgba(255, 255, 255, 0.5)"
-              : "rgba(0, 0, 0, 0.5)",
-            backgroundColor: "transparent",
+            borderColor: paletteTheme.palette.text.secondary,
+            margin: "-4px",
+            borderWidth: "1px",
+            backgroundColor: paletteTheme.palette.background.default,
+            zIndex: 1,
+          },
+        },
+      },
+      MuiTimelineItem: {
+        styleOverrides: {
+          root: {
+            "&:: before": {
+              content: "none",
+            },
+          },
+        },
+      },
+      MuiTimelineConnector: {
+        styleOverrides: {
+          root: {
+            backgroundColor: paletteTheme.palette.text.secondary,
+            width: 1,
           },
         },
       },

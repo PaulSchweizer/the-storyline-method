@@ -1,0 +1,137 @@
+{
+  "id": "shadowhunter",
+  "concept": {
+    "title": "Schattenjäger",
+    "genres": ["Horror", "Detektiv"],
+    "references": ["Film Noir"],
+    "themes": ["Monster of the Week"],
+    "world": "In den Straßen der Zukunft herrscht ewige Nacht",
+    "other": "Die Stadt der Zukunft gebiert ihre eigenen Monster, erschaffen aus Gier, Umweltverschmutzung, dem Hunger nach Macht und der schieren Gigantomanie der diesen Moloch einer Stadt erschuf."
+  },
+  "protagonists": [
+    {
+      "name": "John",
+      "description": "Der Schattenjäger",
+      "storylines": [
+        {
+          "description": "Wird er es schaffen den Geist, den er in sich aufgenommen hat unter Kontrolle zu bringen?",
+          "plotpoints": 1
+        }
+      ]
+    }
+  ],
+  "pilot": {
+    "scenes": [
+      {
+        "text": "Der Schattenjäger durchstreift das in ewige Nacht getauchte Darktown City. Über ihm ragen rauchende Schlote und Hochhäuser in den Himmel. Nur von den höchsten Türmen aus, kann man in dieser Stadt noch manchmal die Sonne sehen."
+      },
+      {
+        "text": "Im Schlamm des Sumpfes unter der Stadt kämpft John gegen einen mutierten Morastarbeiter. Mehrmals verfehlt er mit seiner Beretta die Bestie, seine Hand zittert, seine Augen sind vom Alkohohl getrübt."
+      },
+      {
+        "text": "John schläft in seinem verwahrlosten Zimmer. In seiner Hand eine leere Flasche Whiskey. Er spricht im Schlaf und wirft sich hin und her."
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "episodes": [
+        {
+          "steps": {
+            "Premise": [
+              {
+                "text": "Ein Auftrag geht komplett schief"
+              }
+            ],
+            "Prologue": [
+              {
+                "text": "John steht im Büro der Firma für Wassertechnik. Der Chef zeigt aus dem Fenster, unter ihnen fließt der zähe schwarze Strom des Styx, zahlreiche Rohre und Pipelines durchziehen das Areal es dampft und raucht."
+              },
+              {
+                "text": "\"Sehen sie Mister Vault, ich weis nicht was auf der Insel vor sich geht, meine Jungs weigern sich weiter dort zu arbeiten, seit drei von ihnen verschwunden sind. Die Zentralverwaltung hat ihren Einsatz bereits authorisiert. Welche Zahlungsart bevorzugen sie?\" - \"Standards, Neuros, Alkohohl, Hauptsache bar auf die Hand.\""
+              }
+            ],
+            "Trailer": [
+              {
+                "text": "Der Schattenjäger müht sich mit seinem Feuerzeug ab, seine Lampe ist verloren, als nach einigem Fluchen, endlich eine Flamme entsteht, blickt er direkt in die großen, schwarzen Augen eines schleimigen Monsters."
+              },
+              {
+                "text": "John steht am Ufer des Styx, auf der anderen Seite, im Nebel erhellt eine Explosion die Nacht."
+              }
+            ],
+            "Plotpoints": [
+              {
+                "text": "Johns Problem mit dem Geist hat etwas damit zu tun warum der Auftrag schief läuft.\n**Storyline:** Wird er es schaffen den Geist, den er in sich aufgenommen hat unter Kontrolle zu bringen? ✔☐☐"
+              }
+            ],
+            "Finale": [
+              {
+                "text": "John hetzt zwischen Pipelines und Rohrleitungen hindurch. Er taumelt, muss sich immer wieder abstützen. Er kommt zu spät, die Station der Wassertechnik ist überrannt worden, Arbeiter in ihren grellen Overalls liegen tot auf dem Boden. Das schleimige Biest zerrt einen der Arbeiter ins Wasser."
+              },
+              {
+                "text": "John steht auf einer Pipeline über dem Fluss, Öl strömt in den Fluss in dem man das Monster auf ihn zu schwimmen sieht, sein mächtiger Kamm erhebt sich über die Wellen. John hat den Ölhahn aufgedreht. Als es den Ölteppich berührt, wirft der Schattenjäger sein brennendes Feuerzeug in die Tiefe."
+              }
+            ],
+            "Epilogue": [
+              {
+                "text": "John ist zurück in seinem Appartment. Er blickt im Badezimmerspiegel in sein ölverschmiertes Gesicht. Nur im Spiegel sichtbar verschwimmen die Ölschlieren zur Fratze des Schattengeistes. \"Wie lange willst du noch Unschuldige opfern um mich hier gefangen zu halten. Du weisst du kannst den Kampf nicht gewinnen ...\""
+              }
+            ]
+          }
+        },
+        {
+          "steps": {
+            "Premise": [
+              {
+                "text": "Träume"
+              }
+            ],
+            "Prologue": [
+              {
+                "text": "John sitzt in einer Bar, es tropft von der Decke, die Musik hat immer wieder knarzende Aussetzer wenn das Wasser auf den Plattenspieler trifft."
+              },
+              {
+                "text": "\"Schön dich einmal wieder hier zu sehen, John.\" ertönt eine rauhe, weibliche Stimme hinter ihm. Es ist seine alte Bekannte Keira. Sie trägt schwarzes Leder, ihre Haare sind bunt gefärbt. \"Du siehst müde aus John.\" - \"Schlechte Träume.\" - \"Kenne ich, auch ich träume manchmal von dir ...\""
+              },
+              {
+                "text": "Die Tür zur Bar geht auf und eine Gruppe vermummter Kultisten betritt den Raum. Ihr Anführer trägt eine Maske in Form eines Schakalkopfes. \"Oh shit!\" entfährt es Keira."
+              }
+            ],
+            "Trailer": [
+              {
+                "text": "John und Keira verbergen sich hinter Mülltonnen. Im Gegenlicht der Neonlichter sieht man die Vermummten näher kommen, einer zieht eine Sichel aus seinem Mantel."
+              },
+              {
+                "text": "John hängt kopfüber von der Decke, neben ihm hängt Keira, dann kommen die Kultisten rein und nehmen die bewusstlose Keira mit."
+              }
+            ],
+            "Plotpoints": [
+              {
+                "text": "Träume sind der perfekte Ort um dem Schatten zu begegnen.\n**Storyline:** Wird er es schaffen den Geist, den er in sich aufgenommen hat unter Kontrolle zu bringen? ✔✔☐"
+              }
+            ],
+            "Finale": [
+              {
+                "text": "John tritt dem nichtsahnenden Kultisten der sich über ihn beugt ins Gesicht obwohl er noch auf dem Stuhl gefesselt ist und Kabel auf seinem Kopf befestigt sind."
+              },
+              {
+                "text": "Keira nimmt die Maske des Schakals ab und wirft die blutige Sichel in die Ecke des Raumes. John taumelt durch die Tür, er blickt sich in dem Raum um, eine ganze Gruppe von Kultisten liegt tot am Boden. Er blickt Keira ungläubig an, die hebt jedoch nur fragend eine Augenbraue. \"Lust mich auf einen Drink einzuladen?\""
+              }
+            ],
+            "Epilogue": [
+              {
+                "text": "John und Keira sitzen in der Bar, der Barbesitzer bringt die Drinks. \"Einmal der doppelte Old Islay ohne Eis für dich John und der 'Cthulhu on Ice' für die Dame\". Der Barmann grinst, er fummelt mit seinem Feuerzeug bis er die rußende Kerze am Tisch angezündet bekommt. Dabei macht er noch eine aufmunternde Bemerkung in Richtung John und gibt Keira ein Kompliment, dann verschwindet er wieder hinter dem Tresen, von wo aus er noch den ein oder anderen schelmischen Blick auf das \"Liebespaar\" wirft. Keira hebt ihr Glas, eine blaue Flüssigkeit mit dunklen Schwaden, und die beiden stoßen an."
+              },
+              {
+                "text": "\"Was war das für eine Maschine?\" fragt Keira. \"Sie haben irgendwie mein Unterbewusstsein angezapft, meine Träume.\" antwortet John und reibt sich den noch immer dröhnenden Kopf."
+              },
+              {
+                "text": "In der Dunkelheit von Johns Wohnung steckt sich Keira eine Zigarette an. John liegt auf der Matratze am Boden, in tiefen Schlaf versunken. Keira hat ihn nach Hause gebracht. Sie schlüpft in ihre Lederjacke, greift in ihre Tasche und holt eine Chipkarte daraus hervor. Im Schein der Zigarette sieht man das Emblem des Schakalkopfes und blutige Fingerabdrücke darauf. Ihr blickt fällt noch einmal auf den schlafenden John, dann schliesst sie die Tür und verschwindet."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
